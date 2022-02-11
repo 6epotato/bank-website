@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking site</title>
+    <!-- tailewind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-8 font-medium">Where is my
+            <span class="font-semibold italic text-cyan-300	"> Money?????</span>
+        </h1>
+    </header>
+    <main class="w-3/4  mx-auto">
+        <!-- Balance and transection  -->
+        <section class="mt-10 ">
+            <div class="grid grid-cols-3 gap-4">
+                <div class="bg-teal-400 shadow-lg shadow-teal-500/90 p-8 rounded-lg text-gray-50	">
+                    <h3 class="text-2xl">Deposit</h3>
+                    <h2 class="text-4xl">$00</h2>
+                </div>
+                <div class="bg-blue-400 shadow-lg shadow-blue-500/90 p-8 rounded-lg text-gray-50	">
+                    <h3 class="text-2xl">Withdraw</h3>
+                    <h2 class="text-4xl">$00</h2>
+                </div>
+                <div class="bg-green-400 shadow-lg shadow-green-500/90 p-8 rounded-lg text-gray-50	">
+                    <h3 class="text-2xl">Balance</h3>
+                    <h2 class="text-4xl">$00</h2>
+                </div>
+
+            </div>
+        </section>
+        <!-- Balance and Withdra -->
+        <section>
+            <div class="grid grid-cols-2 mt-10 gap-4">
+                <div class="bg-emerald-100 p-8 rounded">
+                    <h3 class="text-3xl">Please Deposit</h3>
+                    <div>
+                        <input id="deposit-input" class="border-2 border-cyan-600 rounded-lg block w-3/4 mb-4"
+                            type="text" placeholder="Deposit amount">
+                        <button id="deposit-button"
+                            class="rounded bg-cyan-300 shadow-lg shadow-cyan-500/50 px-4 py-2 text-white">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-teal-100	 p-8 rounded">
+                    <h3 class="text-3xl">Withdraw</h3>
+                    <div>
+                        <input id="withdraw-input" class="border-2 border-cyan-600 rounded-lg block w-3/4 mb-4"
+                            type="text" placeholder="Withdraw amount">
+                        <button id="withdraw-button"
+                            class="rounded bg-cyan-300 shadow-lg shadow-cyan-500/50 px-4 py-2 text-white">Withdraw</button>
+                    </div>
+
+
+                </div>
+        </section>
+    </main>
+</body>
+
+</html>
