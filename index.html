@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Bank</title>
+
 </head>
 
 <body>
-    <h1>Welcome To bank</h1>
+    <!-- header section start  -->
+    <header>
+        <h1 class="text-5xl text-center mt-16 font-medium">Welcome To
+            <span class="font-semibold italic text-cyan-300	">Bank</span>
+        </h1>
+    </header>
+    <!-- end of header section  -->
+    <!-- main section start  -->
+    <section class="bg-cyan-100 w-3/4 mx-auto mt-8 p-8	">
+        <main>
+            <h3 class="text-2xl mb-4 text-center">login to get in</h3>
+            <!-- form start  -->
+            <form action="">
+                <input id="user-email" class="border-2 border-cyan-600 rounded-lg block w-3/4 mb-4  text-center"
+                    type="text" placeholder="Email">
+                <input id="user-password" class="border-2 border-cyan-600 rounded-lg block w-3/4 mb-4  text-center"
+                    type="password" placeholder="password">
+                <button id="login-submit" class="rounded-full bg-cyan-300 px-4 ">Submit</button>
+            </form>
+            <!-- form end  -->
+        </main>
+        <!-- end of main section  -->
+    </section>
+    <!-- script file link  -->
+    <script src="js/bank.js"></script>
 </body>
 
 </html>
